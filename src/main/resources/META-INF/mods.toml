@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="EUPL v1.2 License"
+issueTrackerURL="https://github.com/Mrthomas20121-mods/botany-construct/issues"
+
+[[mods]]
+modId="botanyconstruct"
+version="1.20.1-0.0.5"
+displayName="Botany Construct"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/botany-construct"
+#logoFile="tinkers_reforged_logo.png"
+authors="Mrthomas20121"
+description='''
+Add Botania Compat to Tinkers
+'''
+
+[[dependencies.botanyconstruct]]
+	modId = "forge"
+	mandatory = true
+	versionRange = "[47.2.6,)"
+	ordering = "NONE"
+	side = "BOTH"
+[[dependencies.botanyconstruct]]
+	modId="tconstruct"
+	mandatory=true
+	versionRange="[3.12.0.220,)"
+	ordering="NONE"
+	side="BOTH"

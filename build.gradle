@@ -92,7 +92,7 @@ repositories {
         name 'Prog Maven'
         url 'https://dvs1.progwml6.com/files/maven'
     }
-    maven { // CraftTweaker, Immersive Engineering, JEI
+    maven { // CraftTweaker, Botania, JEI
         name 'BlameJared Maven'
         url 'https://maven.blamejared.com'
     }
@@ -125,7 +125,7 @@ dependencies {
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
 	
-	implementation fg.deobf("curse.maven:botania-225643:8901969")
+	implementation fg.deobf("vazkii.botania:Botania:${botania_version}")
 }
 
 jar {
